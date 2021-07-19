@@ -38,5 +38,21 @@
                 ]
             }
         ]
+    },
+    "settings": {
+        "import/resolver": {
+            "node": {
+                "path": [
+                    "src"
+                ],
+                "extensions": [
+                    ".js",
+                    ".jsx",
+                    ".ts",
+                    ".tsx",
+                    ".svg"
+                ]
+            }
+        }
     }
 }
