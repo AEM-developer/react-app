@@ -1,10 +1,12 @@
 import React from 'react';
-import SiteLogo from '../SiteLogo/SiteLogo';
 
 export default function Footer() {
 	return (
-		<div>
-			<SiteLogo />
-		</div>
+		<footer className='bg-secondary'>
+			<h4 className='text-danger d-flex justify-content-center p-4'>
+				<strong>netflix</strong>
+				<span>roulette</span>
+			</h4>
+		</footer>
 	);
 }
